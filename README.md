@@ -21,7 +21,7 @@ https://netacello.github.io/yoga-retreat-yaniv-shaya/
 - `eden_booking_*.jpg` מעמוד הקמפ באתר Booking.com (מזהה נכס eden-camp, נואיבה).
 - `eden_001.jpg` מאתר nuweibabeach.com, עמוד Eden Camp.
 - `eden_sinaivibes.jpg` מאתר sinaivibes.co.il, עמוד עדן ביץ' קמפ.
-- `yaniv_shaya.jpg` מעמוד המורה באתר סטודיו גופאני (ambody.co.il).
+- `yaniv_shaya.jpg` צילום של יניב, באדיבותו.
 - `yaniv_power_yoga_video.jpg` תמונה ממוזערת מסרטון היוטיוב "Power yoga - יניב שיה".
 
 התמונות שייכות לבעליהן ומשמשות כאן לצורך הצגת הריטריט בלבד.
