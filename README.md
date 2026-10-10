@@ -7,7 +7,7 @@ https://netacello.github.io/yoga-retreat-yaniv-shaya/
 ## מבנה
 
 - `index.html` הדף עצמו, עברית, RTL, ללא תלות בקבצים חיצוניים מלבד גופן.
-- `img/eden/` צילומי עדן ביץ' קמפ, חוף אל מחש.
+- `img/yasmina/` צילומי קמפ יסמינה, חוף אל מחש.
 - `img/yaniv/` צילומי המורה.
 
 ## מה צריך להשלים לפני פרסום
@@ -18,9 +18,7 @@ https://netacello.github.io/yoga-retreat-yaniv-shaya/
 
 ## מקורות לתמונות
 
-- `eden_booking_*.jpg` מעמוד הקמפ באתר Booking.com (מזהה נכס eden-camp, נואיבה).
-- `eden_001.jpg` מאתר nuweibabeach.com, עמוד Eden Camp.
-- `eden_sinaivibes.jpg` מאתר sinaivibes.co.il, עמוד עדן ביץ' קמפ.
+- `yasmina_*.jpg` צילומי אורחים של קמפ יסמינה (סבאח), חוף אל מחש, מתוך עמוד הקמפ באתר hushot.co.il.
 - `yaniv_shaya.jpg` צילום של יניב, באדיבותו.
 - `yaniv_power_yoga_video.jpg` תמונה ממוזערת מסרטון היוטיוב "Power yoga - יניב שיה".
 
