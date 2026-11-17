@@ -67,8 +67,7 @@
   .gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block}
   .gallery img.tall{grid-row:span 2}
   @media (max-width:720px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:160px}}
-  .gallery.three-up{grid-template-columns:2fr 1fr 1fr;grid-auto-rows:400px}
-  @media (max-width:720px){.gallery.three-up{grid-template-columns:1fr 1fr;grid-auto-rows:220px}.gallery.three-up img.wide{grid-column:span 2}}
+  @media (max-width:720px){.gallery img.tall{grid-column:span 2;grid-row:span 1}}
   .moments{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;grid-auto-flow:dense;gap:12px}
   .moments img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;grid-row:span 2}
   .moments img.wide{grid-column:span 2}
@@ -170,9 +169,11 @@
     <h2>המקום</h2>
     <p class="lead">קמפ יסמינה, חוף אל מחש, כ-45 דקות נסיעה דרומית ממעבר טאבה. מקום קטן ומטופח בין הרי סיני למפרץ, עם חדרי עץ על קו המים, כולם עם מזגן ושירותים ומקלחת בפנים. חשמל, מים חמים ומסעדה עם דגים טריים. ארוחת בוקר וארוחת ערב כלולות בלינה. חוף חולי, מים רדודים ושקטים, ובלי מוזיקה ובלי המולה.</p>
     <figure style="margin:28px 0 0">
-      <div class="gallery three-up">
-        <img class="wide" src="img/yasmina/yasmina_hut_porch.jpg" alt="חושת עץ עם ערסל ומרפסת בקמפ יסמינה">
+      <div class="gallery">
+        <img class="tall" src="img/yasmina/yasmina_hut_porch.jpg" alt="חושת עץ עם ערסל ומרפסת בקמפ יסמינה">
+        <img src="img/yasmina/yasmina_porch_view.jpg" alt="המרפסת של החושה, ערסל ונוף אל החוף והים">
         <img src="img/yasmina/yasmina_lounge.jpg" alt="פינת הישיבה המוצלת מול החוף">
+        <img src="img/yasmina/yasmina_from_sea.jpg" alt="החושות וההרים, מבט מהמים">
         <img src="img/yasmina/yasmina_shallow.jpg" alt="המים הרדודים והשקטים מול הקמפ">
       </div>
       <figcaption>צילומים: אורחי המקום ומשתתפי הסדנה הקודמת.</figcaption>
