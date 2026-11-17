@@ -67,6 +67,10 @@
   .gallery img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block}
   .gallery img.tall{grid-row:span 2}
   @media (max-width:720px){.gallery{grid-template-columns:1fr 1fr;grid-auto-rows:160px}}
+  .moments{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;grid-auto-flow:dense;gap:12px}
+  .moments img{width:100%;height:100%;object-fit:cover;border-radius:14px;display:block;grid-row:span 2}
+  .moments img.wide{grid-column:span 2}
+  @media (max-width:720px){.moments{grid-template-columns:1fr 1fr;grid-auto-rows:150px}}
   figcaption{font-size:.85rem;color:var(--muted);margin-top:8px}
   .links{display:flex;flex-wrap:wrap;gap:10px 22px;margin-top:6px}
   table{width:100%;border-collapse:collapse;background:var(--card);border-radius:14px;overflow:hidden;border:1px solid var(--line)}
@@ -102,6 +106,7 @@
     <a class="brand" href="#top">סדנת אביב בסיני</a>
     <nav>
       <a href="#about">על הסדנה</a>
+      <a href="#moments">מהסדנה הקודמת</a>
       <a href="#place">המקום</a>
       <a href="#schedule">לו"ז</a>
       <a href="#teacher">המורה</a>
@@ -139,6 +144,25 @@
   </div>
 </section>
 
+<section id="moments">
+  <div class="wrap">
+    <h2>מהסדנה הקודמת</h2>
+    <p class="lead">ככה זה נראה בפעם הקודמת: תרגול על הגג מול ההרים, היפוכים בשקיעה, הפלגה בסירה ושחייה בים, והרבה צחוק.</p>
+    <figure style="margin:28px 0 0">
+      <div class="moments">
+        <img class="wide" src="img/workshop/boat_group.jpg" alt="משתתפי הסדנה בסירה על הים" loading="lazy">
+        <img src="img/workshop/beach_warrior.jpg" alt="תרגול על החוף בשקיעה" loading="lazy">
+        <img src="img/workshop/headstand_adjust.jpg" alt="עמידת ראש עם התאמה של יניב, ההרים ברקע" loading="lazy">
+        <img src="img/workshop/rooftop_inversions_sunset.jpg" alt="שלושה מתרגלים בהיפוכים על הגג בשקיעה" loading="lazy">
+        <img src="img/workshop/beach_group.jpg" alt="הקבוצה על החוף" loading="lazy">
+        <img src="img/workshop/headstand_mountains.jpg" alt="היפוך על הגג מול ההרים" loading="lazy">
+        <img src="img/workshop/rooftop_class.jpg" alt="שיעור ערב על הגג" loading="lazy">
+      </div>
+      <figcaption>צילומים: משתתפי הסדנה הקודמת.</figcaption>
+    </figure>
+  </div>
+</section>
+
 <section id="place">
   <div class="wrap">
     <h2>המקום</h2>
@@ -146,12 +170,12 @@
     <figure style="margin:28px 0 0">
       <div class="gallery">
         <img class="tall" src="img/yasmina/yasmina_rooms.jpg" alt="חדרי העץ בקמפ יסמינה, חוף אל מחש">
-        <img src="img/yasmina/yasmina_rooms_beach.jpg" alt="החדרים על קו המים בקמפ יסמינה">
+        <img src="img/yasmina/yasmina_lounge.jpg" alt="פינת הישיבה המוצלת מול החוף">
         <img src="img/yasmina/yasmina_shallow.jpg" alt="המים הרדודים והשקטים מול הקמפ">
         <img src="img/yasmina/yasmina_room_inside.jpg" alt="חדר מבפנים, חלון אל ההרים">
-        <img src="img/yasmina/yasmina_camp_mountains.jpg" alt="הקמפ וההרים בשעת ערב">
+        <img src="img/yasmina/yasmina_tree_beach.jpg" alt="החוף והבקתות בקמפ">
       </div>
-      <figcaption>צילומים: אורחי המקום.</figcaption>
+      <figcaption>צילומים: אורחי המקום ומשתתפי הסדנה הקודמת.</figcaption>
     </figure>
   </div>
 </section>
